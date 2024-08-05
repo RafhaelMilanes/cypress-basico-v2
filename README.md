@@ -1,29 +1,27 @@
-# Testes automatizados com Cypress - Básico
+# Cypress-projeto-v2
 
-👋 Seja bem-vindo(a)!
+Este repositório contém o projeto desenvolvido durante o curso básico de Cypress, onde exploro os fundamentos essenciais para automação de testes de aplicações web.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+## Instalação
 
-## O que você vai aprender
+Para instalar as dependências de desenvolvimento para o seu projeto utilizando npm, você pode executar o seguinte comando no seu terminal `npm install`
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
+## Teste
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
+Você pode simular o teste rodando em um desktop ou mobile
 
-## Vamos começar?
+### Desktop
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+Modo headless: `npm test` <br>
+Modo Interativo: `npm run cy:open`
+
+
+### Mobile
+
+Para rodar modo headless simulando dispoistivo mobile `npm run teste:mobile` <br>
+Para rodar modo interativo simulando dispoistivo mobile `npm run cy:open:mobile`
+
 
 ___
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+Este projeto foi criado com 💚por  [Rafhael Milanês](https://www.linkedin.com/in/rafhael-milan%C3%AAs-8949b224b/).
