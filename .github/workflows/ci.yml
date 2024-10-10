@@ -5,10 +5,8 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v3  # Atualizado para v3
-      - name: Install dependencies
-        run: npm install  # Instala as dependências NPM
+        uses: actions/checkout@v2
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
       - name: Cypress run
-        uses: cypress-io/github-action@v3  # Atualizado para v3
-        with:
-          start: npm start  # Comando para iniciar sua aplicação, se necessário
+        uses: cypress-io/github-action@v2
